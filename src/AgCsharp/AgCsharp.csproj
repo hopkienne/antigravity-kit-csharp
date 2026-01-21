@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <!-- Global Tool Configuration -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>ag-csharp</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    
+    <!-- Package Metadata -->
+    <PackageId>Antigravity.CSharp.BackendKit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Antigravity</Authors>
+    <Company>Antigravity</Company>
+    <Description>CLI tool for initializing .agent configuration for C# Backend projects in Antigravity IDE. Provides AI-assisted coding rules, skills, and workflows.</Description>
+    <PackageTags>dotnet-tool;csharp;backend;ai;coding-assistant;agent</PackageTags>
+    <PackageProjectUrl>https://github.com/antigravity/csharp-backend-kit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/antigravity/csharp-backend-kit</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    
+    <!-- Assembly Info -->
+    <AssemblyName>AgCsharp</AssemblyName>
+    <RootNamespace>AgCsharp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Embed all template files as resources -->
+    <EmbeddedResource Include="Templates\**\*" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+</Project>
