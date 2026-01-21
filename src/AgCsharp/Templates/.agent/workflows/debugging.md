@@ -1,3 +1,7 @@
+---
+description: A systematic workflow for diagnosing and fixing issues in production or development environments. Covers gathering information and collecting evidence, reading and interpreting stack traces with common exception types, identifying the problem layer (Presentation, Application, Domain, Infrastructure), creating minimal reproductions with failing tests, analyzing code for common bug patterns (null references, empty collections, async deadlocks, race conditions), applying and verifying fixes using TDD, and preventing recurrence through guards, monitoring, and documentation. Includes debugging tools guidance for logging, Application Insights, SQL Profiler, and debugger usage.
+---
+
 # Workflow: Debugging
 
 ## Overview

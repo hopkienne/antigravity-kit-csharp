@@ -1,3 +1,7 @@
+---
+description: A comprehensive code review workflow providing a systematic checklist for reviewing code before merging to main branch. Covers naming conventions, architecture design (Single Responsibility, Dependency Injection, layer boundaries), error handling best practices, security considerations (SQL injection prevention, authorization, input validation), performance optimization (async/await, N+1 queries, indexing), testing standards (AAA pattern, edge cases), API design principles, and database migration reviews. Includes severity levels for review comments (Blocker, Major, Minor, Nitpick, Suggestion) with templates, and defines clear approval criteria.
+---
+
 # Workflow: Code Review
 
 ## Overview

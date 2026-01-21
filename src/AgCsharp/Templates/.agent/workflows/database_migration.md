@@ -1,3 +1,7 @@
+---
+description: A safe and systematic workflow for evolving database schemas without data loss or downtime using Entity Framework Core. Covers planning changes with risk assessment, creating migrations with proper Up/Down methods, generating and reviewing SQL scripts, testing migrations locally with rollback verification, deploying to staging and production environments with comprehensive checklists, and strategies for handling large tables with millions of rows. Includes best practices, do's and don'ts, and rollback plan documentation templates.
+---
+
 # Workflow: Database Migration
 
 ## Overview

@@ -1,3 +1,7 @@
+---
+description: A step-by-step workflow for creating new microservices in a distributed architecture. Covers defining service boundaries (business capabilities, owned data, APIs, dependencies, events), creating Clean Architecture solution structure with CLI commands, adding core NuGet packages (MediatR, FluentValidation, EF Core, MassTransit), implementing domain entities and infrastructure with database and messaging, creating API with health checks and Swagger, building Dockerfiles, integrating with Docker Compose and database containers, configuring API Gateway routing with YARP, and testing the service. Includes development and deployment checklists.
+---
+
 # Workflow: Microservice Creation
 
 ## Overview

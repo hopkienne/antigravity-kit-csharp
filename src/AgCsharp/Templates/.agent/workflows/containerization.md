@@ -1,3 +1,7 @@
+---
+description: A step-by-step workflow for containerizing .NET applications with Docker. Guides through preparing the application with health endpoints and environment variable configuration, creating optimized multi-stage Dockerfiles with security best practices (non-root user), setting up .dockerignore files, building and testing images locally, creating Docker Compose configurations with database dependencies and health checks, optimizing image size (Alpine, Chiseled images, multi-platform builds), and pushing to container registries. Includes complete code examples and a comprehensive checklist for production-ready containerization.
+---
+
 # Workflow: Containerization
 
 ## Overview

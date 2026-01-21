@@ -1,3 +1,7 @@
+---
+description: A comprehensive workflow for modeling domains using Domain-Driven Design principles. Guides through Event Storming discovery sessions (identifying domain events, commands, and aggregates), defining bounded contexts with context maps, designing aggregates in detail (root entities, child entities, value objects, domain events, invariants), defining repository interfaces and domain services, creating application layer commands and queries with DTOs, and implementation order with continuous refinement. Includes strategic and tactical design checklists and an event storming legend.
+---
+
 # Workflow: DDD Modeling
 
 ## Overview
