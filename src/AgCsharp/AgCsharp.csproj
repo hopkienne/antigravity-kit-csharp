@@ -8,6 +8,7 @@
 
     <!-- Repository URL -->
     <RepositoryUrl>https://github.com/hopkinstein/antigravity-kit-csharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
     
     <!-- Global Tool Configuration -->
     <PackAsTool>true</PackAsTool>
